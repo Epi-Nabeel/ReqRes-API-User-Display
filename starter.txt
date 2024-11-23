@@ -1,0 +1,21 @@
+Question 1:
+Go to https://www.cryptocompare.com/
+Sign up with your email and a new password; it's quick.
+
+click on the tab {API}
+On the right hand side, under your login name, check the tab API Keys
+Copy the API key
+
+
+6764a7278c81103298970b7f178b5128141291b9627760dc86a31a5850844487 - api key
+
+Structure a link that looks like the following using your own API key
+
+
+https://min-api.cryptocompare.com/data/v2/pair/mapping/exchange?e=Bitso&api_key=ccefcf431bc95e35a43b5551259baebd3461ad5cc079ad973f23ab92d7246c96
+
+https://min-api.cryptocompare.com/data/price?fsym=${fsym}&tsyms=${tsym}&api_key=c06b0258856fcd1afb5efd272350fc6fcd8b8dfa773c8c67a34c24b4058ca75c
+
+
+
+https://min-api.cryptocompare.com/data/v2/pair/mapping/exchange?e=Bitso&api_key=6764a7278c81103298970b7f178b5128141291b9627760dc86a31a5850844487 

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Quiz 2</title>
+  <style>
+    body {
+      width: 80%;
+      margin: auto;
+    }
+
+    h1,
+    p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+    }
+
+    form {
+      width: 50%;
+      text-align: center;
+      margin: auto;
+      padding: 1em;
+
+      border: 1px solid black;
+      background-color: lightblue;
+    }
+
+    label {
+      /* float: left; */
+      font-weight: bold;
+      color: brown;
+      padding: 1em;
+      font-size: 1em;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>A hosted REST-API ready to respond to your AJAX requests</h1>
+  <h2>Welcome ReqRes Users!</h2>
+  <p>Choose a page number to fetch data for 6 users per page.</p>
+
+  <div class="App">
+    <form action="/" method="post">
+      <input type="radio" name="page_number" id="page1" value="1" required>
+      <label for="page1">Page 1</label>
+      <input type="radio" name="page_number" id="page2" value="2">
+      <label for="page2">Page 2</label>
+
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+
+</html>
+
+
